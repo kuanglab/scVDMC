@@ -2,7 +2,7 @@ Multitask Clustering of scRNAseq Data]{Multitask clustering of single-cell RNA-s
 
 - nature13173-s4.txt
 
-This file contains single cell RNA-seq expression data (log2(FPKM) values) for all 80 lung epithelial cells at E18.5 together with the putative cell type of each cell in a .txt file. The last two are bulk values.
+  This file contains single cell RNA-seq expression data (log2(FPKM) values) for all 80 lung epithelial cells at E18.5 together with the   putative cell type of each cell in a .txt file. The last two are bulk values.
 
 - cell_states_condition.txt
 
