@@ -8,19 +8,25 @@ cell_states_condition.txt
 nCountGenesBatchAdjusted.csv
 
 process_Lung_data.m
-Process Lung data with Matlab.
+
+- Process Lung data with Matlab.
 
 process_mESC_data.m
-Process mESC data with Matlab.
+
+- Process mESC data with Matlab.
 
 Lung_data.mat 
-Processed Lung data.
+
+- Processed Lung data.
 
 mESC_data.mat 
-Processed mESC data.
+
+- Processed mESC data.
 
 Lung_data_test.m
-Run scVDMC algorithm on Lung_data with Matlab.
+
+- Run scVDMC algorithm on Lung_data with Matlab.
 
 mESC_data_test.m
-Run scVDMC algorithm on mESC_data with Matlab.
+
+- Run scVDMC algorithm on mESC_data with Matlab.
