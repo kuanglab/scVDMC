@@ -1,36 +1,22 @@
-Multitask Clustering of scRNAseq Data]{Multitask clustering of single-cell RNA-seq data identifies cell subpopulations and markers in recessive dystrophic epidermolysis bullosa
+scVCMD (Variance-Driven Multitask Clustering of scRNAseq Data) is a multi-task learning method for clustering multiple scRNAseq data from a patient cohort.
 
+* Citation: 
+Zhang, Huanan, Catherine AA Lee, Zhuliu Li, John R. Garbe, Cindy R. Eide, Raphael Petegrosso, Rui Kuang, and Jakub Tolar. "A multitask clustering approach for single-cell RNA-seq analysis in Recessive Dystrophic Epidermolysis Bullosa." PLoS computational biology 14, no. 4 (2018): e1006053.
+
+** Data:
 - nature13173-s4.txt
-
   This file contains single cell RNA-seq expression data (log2(FPKM) values) for all 80 lung epithelial cells at E18.5 together with the   putative cell type of each cell in a .txt file. The last two are bulk values.
 
 - cell_states_condition.txt
 
-- nCountGenesBatchAdjusted.csv
-
+** Code:
 - process_Lung_data.m
 
-  Process Lung data with Matlab.
-
-- process_mESC_data.m
-
-  Process mESC data with Matlab.
-
-- Lung_data.mat 
-
-  Processed Lung data.
-
-- mESC_data.mat 
-
-  Processed mESC data.
+  Process Lung data with Matlab to generate the processed Lung data in Lung_data.mat.
 
 - Lung_data_test.m
 
-  Run scVDMC algorithm on Lung_data with Matlab.
-
-- mESC_data_test.m
-
-  Run scVDMC algorithm on mESC_data with Matlab.
+  Run scVDMC algorithm on Lung_data.mat.
 
 - scVDMC.m
 
