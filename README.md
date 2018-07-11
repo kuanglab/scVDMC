@@ -4,20 +4,22 @@ scVCMD (Variance-Driven Multitask Clustering of scRNAseq Data) is a multi-task l
 Zhang, Huanan, Catherine AA Lee, Zhuliu Li, John R. Garbe, Cindy R. Eide, Raphael Petegrosso, Rui Kuang, and Jakub Tolar. "A multitask clustering approach for single-cell RNA-seq analysis in Recessive Dystrophic Epidermolysis Bullosa." PLoS computational biology 14, no. 4 (2018): e1006053.
 
 ** Data:
-- nature13173-s4.txt
-  This file contains single cell RNA-seq expression data (log2(FPKM) values) for all 80 lung epithelial cells at E18.5 together with the   putative cell type of each cell in a .txt file. The last two are bulk values.
+
+- nature13173-s4.txt: This file contains single cell RNA-seq expression data (log2(FPKM) values) for all 80 lung epithelial cells at E18.5 together with the   putative cell type of each cell in a .txt file. The last two are bulk values.
 
 - cell_states_condition.txt
 
 ** Code:
-- process_Lung_data.m
+*** To test the lung data, run the following two scripts
 
-  Process Lung data with Matlab to generate the processed Lung data in Lung_data.mat.
+- process_Lung_data.m: Process Lung data with Matlab to generate the processed Lung data in Lung_data.mat.
 
-- Lung_data_test.m
+- Lung_data_test.m: Run scVDMC algorithm on Lung_data.mat.
 
-  Run scVDMC algorithm on Lung_data.mat.
+*** To test the mESC data; run the following two scripts
 
-- scVDMC.m
+- process_mESC_data.m: Process mESC data with Matlab to generate the processed mESC data in mESC_data.mat.
 
-  scVDMC function.
+- mESC_data_test.m: Run scVDMC algorithm on mESC_data.mat.
+
+- scVDMC.m: scVDMC function.
