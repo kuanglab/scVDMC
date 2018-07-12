@@ -104,7 +104,7 @@ for dd = 1:d
     V_bag{dd} = V{dd}(:, a(ix(1),:));
     U_bag{dd} = U{dd}(:, a(ix(1),:));            
 end
-sorted_markergenes = genelist_clean(sortBeta);
+sorted_markergenes = GID_clean(sortBeta);
 
 
 
